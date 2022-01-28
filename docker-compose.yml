@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  fastapi:
+    container_name: fastapi_1
+    image: fastapi:0.1
+    ports:
+      - 8080:8000
+  
